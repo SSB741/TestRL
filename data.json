@@ -1,0 +1,40 @@
+REGISTRO DE UN NUEVO USUARIO
+https://dev-server.redlo.com.pe/api/accounts/users/
+{
+  "email": "prueba6@example.com",
+  "name": "string6",
+  "phone": "string6",
+  "position": "string6",
+  "password": "string6",
+  "passwordConfirm": "string6",
+  "enterpriseID": "12345678966",
+  "enterpriseName":"PRUEBA",
+  "enterpriseLocation":"PE-11-05-01",
+  "enterpriseAddress":"Av Arequipa"
+}
+
+
+INICIO DE SESION
+https://dev-server.redlo.com.pe/api/auth/login/
+{
+    "username":"user@example.com",
+    "password":"stringchange"
+} 
+
+CAMBIO DE CONTRASEÑA
+Token 23221237e072f14c84eae763d26c859ad3cf5a33
+{
+  "passwordOld": "string",
+  "password": "stringchange",
+  "passwordConfirm": "stringchange"
+}
+
+INICIO DE SESION NO VALIDO
+{
+    "username":"prueba98@example.com",
+    "password":"string3"
+} 
+
+LOGOUT
+https://dev-server.redlo.com.pe/api/auth/logout/
+Token 23221237e072f14c84eae763d26c859ad3cf5a33
